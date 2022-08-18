@@ -1,0 +1,460 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  font-family: Amiko, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+}
+
+/* header and nav */
+
+header img {
+  margin-left: 8%;
+  margin-top: 5px;
+  width: 100px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-bottom: 20px;
+  height: 100px;
+  width: 100%;
+}
+
+nav {
+  margin-right: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navlinks li {
+  display: inline-flex;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Space mono", Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+}
+
+a {
+  color: black;
+  transition: background-color 0.5s;
+}
+
+a:hover {
+  background-color: hsla(229, 100%, 66%, 0.3);
+}
+
+/* main */
+
+.kw h2 {
+  font-size: 20px;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  margin-bottom: 18px;
+  font-family: "Space mono", Helvetica, sans-serif;
+}
+
+#titleofdocument {
+  margin-left: 8%;
+  margin-bottom: 200px;
+  font-size: 52px;
+  margin-top: 50px;
+  font-family: "Space mono", Helvetica, sans-serif;
+}
+
+#rectangle1 {
+  background-color: hsla(229, 100%, 66%, 0.6);
+  height: 60px;
+  z-index: -2;
+  top: 45px;
+  width: 100%;
+  margin-right: 8%;
+  position: absolute;
+}
+
+.kw {
+  position: relative;
+  margin-left: 8%;
+  margin-right: 8%;
+  z-index: -1;
+}
+
+.kw h1 {
+  font-family: "Space Mono", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+  color: #444440;
+  letter-spacing: 3px;
+}
+
+.kw p {
+  margin-top: 20px;
+  font-family: Amiko, Helvetica, sans-serif;
+}
+
+.first {
+  margin-top: 100px;
+  position: relative;
+  width: 30%;
+  margin-bottom: 60px;
+}
+
+.first p {
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.first h3 {
+  font-family: "Space mono", Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #444440;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 50%;
+}
+
+/* skills and tools */
+
+.skillsandcompetitions {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 40px;
+}
+
+#rectangle5 {
+  background-color: hsla(229, 100%, 66%, 0.3);
+  height: 25px;
+  width: 395px;
+  z-index: -1;
+  top: 40px;
+  position: absolute;
+  margin-right: 8%;
+}
+
+.tools {
+  padding-top: 5px;
+  position: relative;
+  width: 50%;
+}
+
+.tools h1 {
+  font-family: "Space Mono", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #444440;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.tools ul {
+  list-style: none;
+  padding-left: 0px;
+  width: 60%;
+  line-height: 40px;
+}
+
+.tools li {
+  font-size: 14px;
+  font-family: Amiko, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+}
+
+#rectangle6 {
+  background-color: hsla(229, 100%, 66%, 0.3);
+  height: 25px;
+  width: 395px;
+  z-index: -1;
+  top: 35px;
+  position: absolute;
+  margin-right: 8%;
+}
+
+.skillstools {
+  width: 50%;
+  padding-top: 5px;
+  position: relative;
+}
+
+#competencies {
+  font-family: "Space Mono", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #444440;
+  text-align: left;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.skillstools ul {
+  list-style: none;
+  padding-left: 0px;
+  width: 60%;
+}
+
+.skillstools li {
+  font-size: 14px;
+  font-family: Amiko, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* education */
+
+.educationlist {
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-top: 30px;
+  position: relative;
+  margin-bottom: 40px;
+  width: 45%;
+}
+
+#rectangle2 {
+  background-color: hsla(229, 100%, 66%, 0.4);
+  margin-right: 8%;
+  height: 30px;
+  width: 100%;
+  z-index: -1;
+  top: 65px;
+  position: absolute;
+}
+
+#education {
+  font-family: "Space Mono", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #444440;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.educationlist h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444440;
+  font-family: "Space mono";
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+.educationlist h3 {
+  font-size: 16px;
+  font-family: "Space mono", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #444440;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+/* completed courses */
+
+.completedcourses {
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-top: 5px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#courses {
+  font-family: "Space Mono", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #444440;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+#rectangle3 {
+  background-color: hsla(229, 100%, 66%, 0.5);
+  height: 30px;
+  width: 100%;
+  z-index: -1;
+  top: 40px;
+  position: absolute;
+  margin-right: 8%;
+}
+
+.container h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444440;
+  font-family: "Space mono";
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+.container h3 {
+  font-size: 16px;
+  font-family: "Space mono", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #444440;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.container p {
+  width: 60%;
+}
+
+/* work */
+
+.work {
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-top: 5px;
+  position: relative;
+}
+
+.work h1 {
+  font-family: "Space Mono", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #444440;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+#rectangle4 {
+  background-color: hsla(229, 100%, 66%, 0.4);
+  height: 30px;
+  width: 100%;
+  z-index: -1;
+  top: 40px;
+  position: absolute;
+  margin-right: 8%;
+}
+
+.work h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444440;
+  font-family: "Space mono";
+  font-weight: 700;
+  text-align: left;
+}
+
+.work h3 {
+  font-size: 16px;
+  font-family: "Space mono", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #444440;
+  text-align: left;
+}
+
+.work h4 {
+  font-size: 16px;
+  font-family: "Space mono", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #444440;
+  text-align: left;
+}
+
+.work ul {
+  list-style: none;
+  padding-left: 0px;
+  width: 60%;
+}
+
+.work li {
+  font-size: 14px;
+  font-family: Amiko, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* footer */
+
+#footer {
+  background-color: hsla(229, 100%, 66%, 0.3);
+  margin-top: 80px;
+  padding: 20px 0px 60px 8%;
+  width: 100%;
+}
+
+footer h1 {
+  font-family: "Space Mono", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #444440;
+  text-align: left;
+}
+
+#footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 0px;
+  width: 80%;
+}
+
+#footer li {
+  font-size: 14px;
+  font-family: Amiko, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+}
+
+#footer h4 {
+  margin-top: 10px;
+}
+
+footer img {
+  margin-right: 8%;
+  width: 140px;
+}
+
+#footeruklad {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-bottom: 20px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 900px) {
+  img {
+    display: none;
+  }
+
+  #headerinline {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 6%;
+  }
+}
